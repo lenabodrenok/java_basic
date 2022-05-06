@@ -41,6 +41,7 @@ public class SimpleJava {
             System.out.println("a больше c");
         }
         System.out.println();
+
         System.out.println("aByte = " + aByte);
         System.out.println("aInt = " + aInt);
         System.out.println("aShort = " + aShort);
