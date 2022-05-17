@@ -69,6 +69,12 @@ public class SimpleJava {
         System.out.println("--aByte = " + --aByte);
         System.out.println("++aByte + 10 = " + (++aByte + 10));
         System.out.println("--aByte + 10 = " + (--aByte + 10));
+        System.out.println();
+
+        System.out.println("Переполнение Int в max сторону: " + (Integer.MAX_VALUE + 1));
+        System.out.println("Переполнение Int в min сторону: " + (Integer.MIN_VALUE - 1));
+        System.out.println("Переполнение Long в max сторону: " + (Long.MAX_VALUE + 1));
+        System.out.println("Переполнение Long в min сторону: " + (Long.MIN_VALUE - 1));
     }
 }
 
